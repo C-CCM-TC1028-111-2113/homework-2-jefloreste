@@ -1,8 +1,11 @@
-import math
-def main():
-    #escribe tu código abajo de esta línea
-    pass
-    
+def main(number):
+    return()
 
-if __name__ == '__main__':
-    main()
+number = float(input("Insert a number: "))
+
+if number > 0:
+   print("Positive number")
+elif number == 0:
+   print("Zero")
+else:
+   print("Negative number")
